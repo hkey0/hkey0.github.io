@@ -1,1 +1,20 @@
-sa
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var url_string = window.location.href; 
+    var url = new URL(url_string);
+    var c = url.searchParams.get("token");
+    
+    window.open('https://arbiscan.io/address/' + c + '#readContract', '_blank');
+
+</script>
+</html>

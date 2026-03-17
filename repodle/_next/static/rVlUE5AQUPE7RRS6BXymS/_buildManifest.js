@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/games//_next/:path+",
-        "destination": "/games/_next/:path+"
+        "source": "/repodle//_next/:path+",
+        "destination": "/repodle/_next/:path+"
       }
     ],
     "fallback": []
